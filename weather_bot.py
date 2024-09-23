@@ -103,5 +103,5 @@ def commit_to_db(username, caption):
     conn.close()
 
 
-# bot.infinity_polling()
+bot.infinity_polling()
 
