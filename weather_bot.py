@@ -13,7 +13,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 API_key = '3865070e623c4324b55122415242309'
 
 
-bot = telebot.TeleBot('8034753885:AAF0XkQeO0bOD9rBmi-Zg2wv_FLVxlcvBz4')
+bot = telebot.TeleBot('')
 
 translator = Translator()
 
@@ -103,5 +103,5 @@ def commit_to_db(username, caption):
     conn.close()
 
 
-bot.infinity_polling()
+# bot.infinity_polling()
 
